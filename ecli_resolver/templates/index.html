@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>ECLI Resolver/ forwarder</title>
+    <meta charset="utf-8">
+    <meta name="description" content={{description}}>
+    <link rel="shortcut icon" href="/favicon.ico">
+  </head>
+
+  <body>
+    <h1>ECLI Resolver / forwarder</h1>
+    <h2>Quick tests:</h2>
+    <ul>
+      {%- for uri in tests %}
+        <li><a href="/{{uri}}">{{uri}}</a></li>
+      {% endfor %}
+    </ul>
+    
+  </body>
+
+</html>

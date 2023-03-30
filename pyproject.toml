@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ecli-resolver"
+version = "1"
+description = "European Case Law Identifier (ECLI) resolver/forwarder"
+authors = ["Pieterjan Montens <pieterjan@montens.net>"]
+license = "EUPL 1.2"
+readme = "README.md"
+packages = [{include = "ecli_resolver"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

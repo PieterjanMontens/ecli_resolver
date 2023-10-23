@@ -16,6 +16,18 @@
         <li><a href="/{{uri}}">{{uri}}</a></li>
       {% endfor %}
     </ul>
+    <h2>Don't provide ECLI resolving abilities:</h2>
+    <ul>
+      {%- for uri in other %}
+        <li><a href="/{{uri}}">{{uri}}</a></li>
+      {% endfor %}
+    </ul>
+    <h2>Are not officially documented</h2>
+    <ul>
+      {%- for uri in new %}
+        <li><a href="/{{uri}}">{{uri}}</a></li>
+      {% endfor %}
+    </ul>
     
   </body>
 
